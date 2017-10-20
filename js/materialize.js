@@ -2,7 +2,17 @@ $(document).ready(function(){
     $('.scrollspy').scrollSpy();
   });
 
+  $('.carousel-slider').carousel({fullWidth: true, padding:0},setTimeout(autoplay, 4500));
+  function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 7500);
+     }
 
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+        
+ $('.carousel.carousel-slider').carousel({fullWidth: true});
 /*!
  * Materialize v0.100.2 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
