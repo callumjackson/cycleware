@@ -4847,8 +4847,8 @@ small {
 }
 
 .card .card-image .card-title {
-  color: #fff;
-  position: absolute;
+  color: #000;
+  position: relative;
   bottom: 0;
   left: 0;
   max-width: 100%;
@@ -9446,6 +9446,28 @@ body {
 .promoimg{
 text-align: center;
     width: 100%;
-    height: auto;
+    height: 50%;
     margin-bottom: -20px;
     }
+.promo-cards{
+    position: relative;
+}
+
+.myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
