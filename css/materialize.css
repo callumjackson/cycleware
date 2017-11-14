@@ -2159,6 +2159,9 @@ html {
  */
 body {
   margin: 0;
+  object-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
 }
 
 /* HTML5 display definitions
@@ -3409,7 +3412,8 @@ nav ul a span.badge {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-}
+  align-content: center;
+}f
 
 .row:after {
   content: "";
@@ -4712,17 +4716,19 @@ small {
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
   background-color: #fff;
+
 }
 
 .card {
   position: relative;
-  margin: 0.5rem 0 1rem 0;
+  margin: 20%;
   background-color: #fff;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
   border-radius: 2px;
+  
 }
 
 .card .card-title {
@@ -5915,6 +5921,7 @@ button.btn-floating {
   -webkit-transition: opacity .4s;
   transition: opacity .4s;
   -webkit-backface-visibility: hidden;
+
 }
 
 .materialboxed:hover:not(.active) {
