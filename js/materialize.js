@@ -2,17 +2,10 @@ $(document).ready(function(){
     $('.scrollspy').scrollSpy();
   });
 
-  $('.carousel-slider').carousel({fullWidth: true, padding:0},setTimeout(autoplay, 4500));
-  function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 7500);
-     }
-
-    $(document).ready(function(){
-      $('.carousel').carousel();
-    });
-        
- $('.carousel.carousel-slider').carousel({fullWidth: true});
+ $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
 
 
 // Next slide
@@ -45,8 +38,7 @@ function topFunction() {
     document.body.scrollTop = 0; // For Chrome, Safari and Opera 
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
-
-
+ 
 
 /*!
  * Materialize v0.100.2 (http://materializecss.com)
