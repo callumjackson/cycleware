@@ -22,8 +22,10 @@
     </style>
 </head>
 <body>
+    
     <header>
-<nav>
+
+        <nav>
     <div class="nav-wrapper">
       <a href="index.html" class="brand-logo"><img padding-top="20px" src="assests/logo2.png"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -56,32 +58,46 @@
        <div class="row">
             <div class="col s12 m6">
             <div class="sec1img">
-                <a href="https://placeholder.com"><img src="http://via.placeholder.com/550x250"></a>
+               <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="John" id="first_name" type="text" class="validate">
+            <label for="first_name"><p style="color:#000">First Name</p></label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" placeholder="Smith" type="text" class="validate">
+          <label for="last_name"><p style="color:#000">Last Name</p></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="text" placeholder="johnsmith1234@youdomain.com" type="email" class="validate">
+          <label for="email"><p style="color: #000">Email</p></label>
+        </div> 
+      </div>
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" placeholder="We would love to Hear from you" class="materialize-textarea"></textarea>
+          <label for="textarea1"><p style="color: #000">Your Comments</p></label>
+        </div>
+      </div>
+    </div>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+    </form>
+  </div>
                 </div>
             </div>
               <div class="col s12 m6">
-              <h1>enter text here</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet nibh nec nulla fermentum, vitae tempus erat maximus. Vivamus sit amet sollicitudin turpis. Nulla vel eleifend erat. Etiam maximus lorem eget dictum molestie. Integer quis neque euismod, tincidunt lectus sed, pretium tortor. Donec dictum magna nisi. </p>
+              <h2>If your Interested in getting into contact with us.</h2>
+                  <p>Plese complete this form to the left and we will get back to you within 2-3 working days. If you are interested in becoming a sonsor then plese call us on 0800 876522! </p>
             </div> 
             
           </div>
-        <div class="mod-all">
-        <!-- Modal Trigger -->
-  <button data-target="modal1" class="btn modal-trigger">If you Are interested in more please click here!</button>
-
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <h4>Enter Text Here</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet nibh nec nulla fermentum, vitae tempus erat maximus. Vivamus sit amet sollicitudin turpis. Nulla vel eleifend erat. Etiam maximus lorem eget dictum molestie. Integer quis neque euismod, tincidunt lectus sed, pretium tortor. Donec dictum magna nisi.</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="btn modal-action modal-close waves-effect waves-light">OK!</a>
-    </div>
-  </div>
-        </div>
-            
-            
+        
             
             
             
@@ -100,7 +116,7 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Cycleware</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <p class="grey-text text-lighten-4">Our clothing for your riding!</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
@@ -115,9 +131,8 @@
             </div>
           </div>
           <div class="footer-copyright">
-            <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div class="container" align="center">
+            © 2017 Callum Jackson
             </div>
           </div>
         </footer>

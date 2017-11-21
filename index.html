@@ -12,6 +12,7 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     
 
     
     <script>
@@ -67,12 +68,19 @@ $(document).ready(function(){
     <!-- main Navbar -->
     <nav>
     <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo"><img padding-top="20px" src="assests/logo2.png"></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <a href="#!" class="brand-logo"><img padding-top="20px" src="assests/logo2.png"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text large">menu</i></a>
+      <ul class="right hide-on-med-and-down">
         <li><a href="Promtions.html">Promotions</a></li>
         <li><a href="what%20we%20do.html">What We Do!</a></li>
           <li><a href="oursponsors.html">Our Sponsors</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="Promtions.html">Promotions</a></li>
+        <li><a href="what%20we%20do.html">What We Do!</a></li>
+          <li><a href="oursponsors.html">Our Sponsors</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
       </ul>
     </div>
   </nav>
@@ -89,14 +97,14 @@ $(document).ready(function(){
     
     
     
-    
     <main>
     
-    <div class="video-container"><iframe width="854" height="480" src="https://www.youtube.com/embed/6PREWa_wIh0?rel=0&autoplay=1" frameborder="0"></iframe></div>
+    <div class="video-container"><iframe width="854" height="480" src="https://www.youtube.com/embed/HIIhOjf42lo?rel=0&autoplay=1" frameborder="0"></iframe>
+    </div>
     
     
     <div class="btnwrapper">
-       <a href="#photos" <button class="btn waves-effect waves-light js-scroll-trigger" type="submit" name="action">Whats Next?      
+       <a href="#photos"><button class="btn waves-effect waves-light js-scroll-trigger" type="submit" name="action">Whats Next?      
             <i class="material-icons right">send</i>
         </button></a>
     
@@ -109,28 +117,43 @@ $(document).ready(function(){
         <div class="col s12 m6">
             <div class="card">
             <div class="card-image">
-            <img class="materialboxed" width="650" src="assests/Mock%20Up%20Merchandise%20-%20Front.jpeg">
-              <span class="card-title">Mens Front Design</span>
+            <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="assests/Mock%20Up%20Merchandise%20-%20Front.jpeg"></a>
+    <a class="carousel-item" href="#two!"><img src="assests/Mock%20Up%20Merchandise%20-%20Rear.jpeg"></a>
+  </div>
+              <span class="card-title">Mens Design</span>
             </div>
             <div class="card-content">
-              <p>This shows the design that cycleware are promoting.</p>
+              <p>This shows the design of the males top, if you slide the photo to the left it will show you the rear of the design, both designs show the company logo and the 2 main sponsors.</p>
             </div>
           </div>
         </div>
     <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
-              <img class="materialboxed" width="650" src="assests/Mock%20Up%20Merchandise%20-%20Rear.jpeg">
-              <span class="card-title">Mens Rear Design</span>
+              <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="assests/womans%20front.png"></a>
+    <a class="carousel-item" href="#two!"><img src="assests/womans%20back.png"></a>
+  </div>
+              <span class="card-title">Womans Design</span>
             </div>
             <div class="card-content">
-              <p>This shows the rear Design of the mens tshirt that cycleware are promoting</p>
+              <p>This shows the design of the females top, if you slide the photo to the left it will show you the rear of the design, both designs show the company logo and the 2 main sponsors.</p>
             </div>
     
           </div>
         </div>
  </div>   
     </div>
+    
+    
+    <div class="col s12">
+        <a class="waves-effect waves-dark btn" href="oursponsors.html">
+                <i class="material-icons right">chevron_right</i>
+            Click here to see who our sponsors are!
+        </a>
+    </div>
+    <br>
     </main>
 
 
@@ -148,7 +171,7 @@ $(document).ready(function(){
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Cycleware</h5>
-                <p class="grey-text text-lighten-4">Thank you for you time!</p>
+                <p class="grey-text text-lighten-4">Our clothing for your riding!</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
@@ -162,12 +185,17 @@ $(document).ready(function(){
                 </div>
             </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container">
+         <div class="footer-copyright">
+            <div class="container" align="center">
             © 2017 Callum Jackson
             </div>
           </div>
         </footer>
         
+<!-- java script -->
+        
+         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
     </body>
 </html>

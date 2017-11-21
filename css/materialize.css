@@ -4319,6 +4319,7 @@ nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
 nav .brand-logo i.material-icons {
   float: left;
   margin-right: 15px;
+  
 }
 
 nav .nav-title {
@@ -4363,6 +4364,7 @@ nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.b
   height: inherit;
   line-height: inherit;
 }
+
 
 nav ul a:hover {
   background-color: rgba(0, 0, 0, 0.1);
@@ -6474,7 +6476,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   position: absolute;
   top: 0;
   right: 1rem;
-  color: transparent;
+  color: #000;
   cursor: pointer;
   font-size: 2rem;
   -webkit-transition: .3s color;
@@ -9501,6 +9503,8 @@ text-align: center;
 .sec1img{
     text-align: center;
     padding-top: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 .sponimg{
@@ -9514,4 +9518,11 @@ text-align: center;
 .mod-all{
     text-align: center;
     padding-bottom: 10px;
+}
+
+.clareimg{
+    position: relative;
+}
+.whatimg{
+    position: absolute;
 }
